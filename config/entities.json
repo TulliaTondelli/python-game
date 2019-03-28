@@ -1,22 +1,22 @@
 {
-    "O": {
-        "name": "coccinella",
+    "B": {
+        "name": "Bacchetta di Sambuco",
         "color": "red",
-        "description": "che bella!",
+        "description": "E' proprio lei!",
         "interactions":  {
             "no-item": {
-                "message": "la schiacci",
+                "message": "Ma guarda com'è' vecchia e consumata questa bacchetta.",
                 "transform": " "
             }
         }
     },
-    "H": {
-        "name": "idrogeno",
-        "description": "e' dell'idrogeno, non chiedermi come fai a percepirlo...",
-        "color": "magenta",
+    "C": {
+        "name": "Capello Parlante",
+        "description": "Difficle, molto difficle, dove ti colloco?",
+        "color": "cyan",
         "interactions": {
             "no-item": {
-                "message": "ma scusa... cosa ti aspetti di fare esattamente con l'idrogeno..."
+                "message": "Tassorosso!!"
             },
             "L": {
                 "message": "opppero'! hai condito le lasagne con l'idrogeno sprigionando una reazione unicornosa",
@@ -24,26 +24,26 @@
             }
         }
     },
-    "L": {
-        "name": "lasagne",
-        "description": "sembrano appetitose",
+    "G": {
+        "name": "Giratempo",
+        "description": "Tornare indietro nel tempo non e' cosi' facile.",
         "color": "green",
         "interactions": {
             "no-item": {
-                "message": "fa sempre comodo avere delle lasagne in tasca",
+                "message": "Oddioooo",
+                "game_over": "Ti sei fatto vedere mentre viaggiavi nel tempo. Hai creato un buco temporale che ti sta risucchiando.",
                 "transform": " ",
                 "pickup": true
             }
         }
     },
-    "B": {
-        "name": "bomba",
-        "description": "e' una bomba pronta a detonare, devo sbrigarmi a disinnescarla!",
+    "M": {
+        "name": "Mappa del Malandrino",
+        "description": "Le stanze di Hogwarts sono tante, meglio non perdersi se vuoi arrivare puntuale alle lezioni:",
         "color": "red",
         "interactions": {
             "no-item": {
-                "message": "biiiip biiiiiiip biiiiiiiiiiiip",
-                "game_over": "la bomba esplode demolendo l'intera stanza"
+                "message": "Ora puoi esplorare tutto gli angoli del castello."
             },
 
             "V": {
@@ -74,18 +74,18 @@
         "interactions": {
             "no-item": {
                 "message": "quale porta scusa???",
-                "transform": "L"
+                "move_to_room": 2
             }
         }
     },
-    "0": {
-        "name": "porta",
-        "description": "e' una porta",
-        "color": "blue",
+    "I": {
+        "name": "Mantello dell'Invisibilita'",
+        "description": "So che non mi vedete ma sono prorpio io :)",
+        "color": "white",
         "interactions": {
             "no-item": {
-                "message": "si apre",
-                "move_to_room": 0
+                "message": "Sei curioso di sapere cosa nascondo eh...nascondo di tutto.",
+                "trasform": ""
             }
         }
     },
@@ -139,7 +139,7 @@
         }
     },
 
-    "C": {
+    "X": {
         "name": "candelabro",
         "description": "un vecchio candelabro arrugginito",
         "color": "yellow",
