@@ -2,180 +2,177 @@
     "B": {
         "name": "Bacchetta di Sambuco",
         "color": "red",
-        "description": "E' proprio lei!",
+        "description": "Ho conosciuto i piu' grandi maghi e sfidato i più' terribili nemici.",
         "interactions":  {
             "no-item": {
-                "message": "Ma guarda com'è' vecchia e consumata questa bacchetta.",
-                "transform": " "
+                "message": "Ma guarda com'e' vecchia e consumata questa bacchetta."
+            },
+            "I": {
+                "message": "Ohohoh direi che ci siamo...",
+                "win": "COMPLIMENTI SEI RIUSCITO A TROVARE I 3 DONI DELLA MORTE!!"
             }
         }
     },
+
     "C": {
         "name": "Capello Parlante",
         "description": "Difficle, molto difficle, dove ti colloco?",
         "color": "cyan",
         "interactions": {
             "no-item": {
-                "message": "Tassorosso!!"
-            },
-            "L": {
-                "message": "opppero'! hai condito le lasagne con l'idrogeno sprigionando una reazione unicornosa",
-                "transform": "U"
+                "message": "Tassorosso!! E questo e' un piccolo pensierino, da un ammiratrice segreta, fanne buon uso.",
+                "transform": "Z"
             }
         }
     },
+
     "G": {
         "name": "Giratempo",
-        "description": "Tornare indietro nel tempo non e' cosi' facile.",
+        "description": "Tornare indietro nel tempo non e' cosi' facile come si pensa.",
         "color": "green",
         "interactions": {
             "no-item": {
                 "message": "Oddioooo",
-                "game_over": "Ti sei fatto vedere mentre viaggiavi nel tempo. Hai creato un buco temporale che ti sta risucchiando.",
+                "game_over": "Ti sei fatto vedere mentre viaggiavi nel tempo. Hai creato un buco temporale che ti sta risucchiando."
+            }
+        }
+    },
+
+    "M": {
+        "name": "Mappa del Malandrino",
+        "description": "Le stanze di Hogwarts sono tante, meglio non perdersi se vuoi arrivare puntuale alle lezioni.",
+        "color": "red",
+        "interactions": {
+            "no-item": {
+                "message": "Ora puoi esplorare tutto gli angoli del castello.",
                 "transform": " ",
                 "pickup": true
             }
         }
     },
-    "M": {
-        "name": "Mappa del Malandrino",
-        "description": "Le stanze di Hogwarts sono tante, meglio non perdersi se vuoi arrivare puntuale alle lezioni:",
-        "color": "red",
-        "interactions": {
-            "no-item": {
-                "message": "Ora puoi esplorare tutto gli angoli del castello."
-            },
 
-            "V": {
-                "message": "tagli con attenzione un filo che penzola da un lato dell'ordigno...",
-                "win": "hai disinnescato la bomba con successo, sei sano e salvo!"
-            },
-
-            "L": {
-                "message": "sei un pervertito"
-            }
-        }
-    },
-    "1": {
+     "0": {
         "name": "porta",
         "description": "e' una porta",
         "color": "blue",
         "interactions": {
             "no-item": {
                 "message": "si apre",
+                "move_to_room": 0
+            }
+        }
+    },
+
+    "1": {
+        "name": "porta",
+        "description": "e' una porta",
+        "color": "blue",
+        "interactions": {
+            "Z": {
+                "message": "woow ma che bella scopa: prego passa pure.",
                 "move_to_room": 1
             }
         }
     },
+
     "2": {
         "name": "porta",
         "description": "e' una porta",
         "color": "blue",
         "interactions": {
-            "no-item": {
-                "message": "quale porta scusa???",
+            "M": {
+                "message": "Bravo maghetto, hai trovato la porta giusta...Prego passa pure.",
                 "move_to_room": 2
             }
         }
     },
+
     "I": {
         "name": "Mantello dell'Invisibilita'",
-        "description": "So che non mi vedete ma sono prorpio io :)",
+        "description": "Guardami! Mi hai riconosciuto? :)",
         "color": "white",
         "interactions": {
             "no-item": {
-                "message": "Sei curioso di sapere cosa nascondo eh...nascondo di tutto.",
-                "trasform": ""
-            }
-        }
-    },
-    "Q": {
-        "name": "quadro",
-        "description": "e' proprio un bel quadro",
-        "color": "blue",
-        "interactions": {
-            "no-item": {
-                "message": "spostando il quadro ti accorgi che dietro nasconte una cassaforte",
-                "transform": "F"
-            }
+                "message": "Sei curioso di sapere cosa nascondo eh...nascondo di tutto."
+            },
+            "R": {
+                "message": "Se mi afferri cosi' mi fai il solletico, hihihi.",
+                "transform": "",
+                "pickup": true,
+                "remove_from_inventory": "R"
+            }   
         }
     },
 
     "F": {
-        "name": "cassaforte",
-        "description": "e' una cassaforte chiusa",
+        "name": "Fuffi",
+        "description": "woof-woof...WOOF-WOOOOOF-WOOF",
         "color": "yellow",
         "interactions": {
-            "K": {
-                "message": "la chiave entra perfettamente nella serratura; la giri",
-                "transform": "V",
+            "no-item": {
+                "game_over": "Svegli Fuffi e le sue tre teste ti divorano."
+            },
+            "P": {
+                "message": "WOOF-WOOF, woooooooof...zzzzzzz.(Ha funzionato!)",
+                "transform": " ",
                 "remove_from_inventory": true
             }
         }
     },
 
-    "V": {
-        "name": "Tenaglie",
-        "description": "sono delle tenaglie piuttosto affilate",
-        "color": "green",
+    "R": {
+        "name": "Pietra della Resurrezione",
+        "description": "In suo possesso la morte non ti fara' piu' paura.",
+        "color": "black",
         "interactions": {
             "no-item": {
-                "message": "le raccogli",
-                "transform": " ",
-                "pickup": true
+                "message": "Che strana pietra, non ne ho mai vista una simile.",
+                "pickup": true,
+                "transform": " "    
             }
         }
     },
 
     "P": {
-        "name": "pianta",
-        "description": "questa pianta non viene annaffiata da molto tempo",
+        "name": "Pozione Soporifera",
+        "description": "Sai che sono stata io a far addormentare la Bella Addormentata? Altro che strega cattiva...",
         "color": "green",
         "interactions": {
             "no-item": {
-                "message": "spostando il vaso noti qualcosa di interessante",
-                "transform": "K"
+                "message": "Che sonno che mi e' venuto, penso che mi andro' a fare una bella dormita.",
+                "transform": " ",
+                "pickup": true
             }
         }
     },
 
     "X": {
-        "name": "candelabro",
-        "description": "un vecchio candelabro arrugginito",
+        "name": "Strillettera",
+        "description": "Non capisco bene: fammi leggere meglio.",
         "color": "yellow",
         "interactions": {
-            "V": {
-                "message": "mmm, ha proprio senso... abra cadabra!",
-                "transform": " ",
-                "pickup": true
-            },
-            "C": {
-                "message": "mindfuckkkkk!!!!",
-                "transform": "U"
+            "no-item": {
+                "message": "3 oggetti, o meglio 3 doni, dovrai trovare per arrivare in finale."
             }
         }
     },
 
-    "U": {
-        "name": "unicorno",
-        "description": "che splendido esemplare fatato!",
+    "Z": {
+        "name": "Scopa",
+        "description": "Guarda la', e' la nuova Nimbus 2000!! Che figata!",
         "color": "blue",
         "interactions": {
             "no-item": {
-                "message": "che splendida sensazione",
-                "win": "voli via contento e vivrai una vita fatta di soddisfazioni cucciolose"
-            },
-
-            "L": {
-                "message": "quello che una volta  era un leggiadro  unicorno ora e' un unicorno obeso! non volera' mai piu'",
-                "game_over": "peccato!"
+                "message": "Veloce, sempre piu' veloce, cosi' mi piace!",
+                "transform": " ",
+                "pickup": true
             }
         }
     },
 
-    "K": {
-        "name": "chiave",
-        "description": "e' una piccola chiave",
+    "L": {
+        "name": "Calice di Fuoco",
+        "description": "chi vincerà la coppa Tremaghi? Conto su di te.",
         "color": "yellow",
         "interactions": {
             "no-item": {
