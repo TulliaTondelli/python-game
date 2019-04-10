@@ -1,7 +1,7 @@
 {
     "0": {
         "name": "Sala Grande",
-        "description": "Benvenuto ad Hogwarts. Nella Sala Grande si riuniscono studenti e professori per le occasioni piu' importanti.",
+        "description": "Benvenuto ad Hogwarts. Nella Sala Grande si riuniscono studenti e professori per le occasioni piu' importanti",
         "color": "yellow"
     },
 
@@ -13,7 +13,7 @@
 
     "2": {
         "name": "Dormitorio Tassorosso",
-        "description": "La nostra sala e' la piu' accogliente, calda e...rossa.",
-        "color": "red"
+        "description": "La nostra sala e' la piu' accogliente, calda e...rossa",
+        "color": "white"
     }
 }
